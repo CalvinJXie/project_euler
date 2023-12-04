@@ -2,6 +2,7 @@
 Author: Calvin Xie
 Date: 10/17/2023
 Link: https://projecteuler.net/problem=3
+g++ -Wextra -Wall -pedantic -pedantic-errors -o a problem.cpp
 */
 
 #include <iostream>

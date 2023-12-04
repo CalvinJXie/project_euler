@@ -2,6 +2,7 @@
 Author: Calvin Xie
 Date: 10/17/2023
 Link: https://projecteuler.net/problem=2
+g++ -Wextra -Wall -pedantic -pedantic-errors -o a problem.cpp
 */
 
 #include <iostream>
@@ -41,6 +42,5 @@ int solution(int n, int max_fib)
 
 int main()
 {
-
   cout << solution(33, 4000000) << endl;
 }
