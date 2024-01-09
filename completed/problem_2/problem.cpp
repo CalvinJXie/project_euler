@@ -21,7 +21,7 @@ int solution(int n, int max_fib)
   int fibVector[2] = {1, 2}; // Only needs to hold two values
   int res = 2; // holds sum of even values
 
-  for(int i = 2; i < n; i++)
+  for(int i = 2; i < n; ++i)
   {
     int new_val = fibVector[0] + fibVector[1];
     if(new_val > max_fib) // if we bypass the fib limit

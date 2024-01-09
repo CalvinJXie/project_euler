@@ -1,0 +1,5 @@
+# Compiled source
+*.exe
+*.out
+# Mac specific
+**/.DS_Store
