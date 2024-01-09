@@ -6,9 +6,13 @@ g++ -Wextra -Wall -pedantic -pedantic-errors -o a problem.cpp
 */
 
 #include <iostream>
-using namespace std;
+
+int solution()
+{
+    return 0;
+}
 
 int main()
 {
-    cout<<"Hello World!"<<endl;
+    std::cout<<solution()<<std::endl;
 }
