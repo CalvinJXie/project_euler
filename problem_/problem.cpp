@@ -6,7 +6,6 @@ g++ -Wextra -Wall -pedantic -pedantic-errors -o a problem.cpp
 */
 
 #include <iostream>
-using namespace std;
 
 int solution()
 {
